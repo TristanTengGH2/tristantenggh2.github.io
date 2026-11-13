@@ -63,6 +63,8 @@ h2 {
   background: none; border: 0; padding: 0; text-align: left; color: inherit;
   font: inherit; cursor: pointer;
   flex: 0 1 360px; max-width: 100%;
+  /* Buttons vertically center their content by default; pin it to the top so thumbnails line up. */
+  display: flex; flex-direction: column; justify-content: flex-start;
 }
 .thumb {
   aspect-ratio: 16 / 9; width: 100%;
