@@ -1,0 +1,81 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Tristan Teng | Interactive Media</title>
+  <meta name="description" content="Portfolio of Tristan Teng, Arts and Entertainment Technologies student at UT Austin building interactive web and game projects.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="nav">
+    <a class="brand" href="#top">TT</a>
+    <nav>
+      <a href="#about">About</a>
+      <a href="#projects">Projects</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <main id="top">
+    <section class="hero">
+      <h1><strong>TRISTAN TENG</strong> <span>INTERACTIVE MEDIA</span></h1>
+      <p>UT Austin Arts and Entertainment Technologies student building playable, privacy-minded web apps and game prototypes.</p>
+      <a class="btn" href="#projects">See my work</a>
+    </section>
+
+    <section id="about" class="narrow">
+      <h2>ABOUT</h2>
+      <img class="portrait" src="assets/tristan.jpg" alt="Portrait of Tristan Teng" width="220" height="220">
+      <p>I'm an Arts and Entertainment Technologies student at UT Austin who likes making things people can actually play. So far that's two Unity platformers on itch.io, a study timer with a red panda in it, and a Halloween story built for your phone.</p>
+      <p>I use AI tools like Codex and Claude Code to build faster, but the ideas, design calls and testing are mine. I put projects in front of other people and change them based on what they say. On each project below, I'm upfront about what I hand-coded and what's still in progress.</p>
+    </section>
+
+    <section id="projects">
+      <h2>THE PROJECTS</h2>
+      <div class="grid" id="grid"></div>
+    </section>
+
+    <section id="skills" class="narrow">
+      <h2>SKILLS</h2>
+      <ul class="chips">
+        <li>Java</li><li>Python (working)</li><li>Godot (basic)</li><li>HTML/CSS</li><li>JavaScript</li><li>TypeScript</li>
+        <li>Substance Painter</li><li>Microsoft Office</li>
+        <li>Photoshop</li><li>After Effects</li><li>Unity</li><li>C#</li><li>Rust</li><li>Ableton Live</li><li>Hog4 PC</li>
+        <li>Codex</li><li>Claude Code</li>
+      </ul>
+      <p class="small">Languages: English, Cantonese (semi-proficient)</p>
+    </section>
+
+    <section id="contact" class="narrow">
+      <h2>CONTACT</h2>
+      <p>
+        <a href="mailto:Tristanteng@utexas.edu">Tristanteng@utexas.edu</a><br>
+        <a href="https://www.linkedin.com/in/tristan-teng-409411336">LinkedIn</a> ·
+        <a href="https://github.com/TristanTengGH2">GitHub</a> ·
+        <a href="https://tristanteng.itch.io">itch.io</a> ·
+        <a href="https://www.youtube.com/@tyn_tired">YouTube</a>
+      </p>
+    </section>
+  </main>
+
+  <footer>© <span id="year"></span> Tristan Teng</footer>
+
+  <div class="modal" id="modal" hidden>
+    <div class="modal-box" role="dialog" aria-modal="true">
+      <button class="close" id="close" aria-label="Close">×</button>
+      <div class="modal-media" id="mMedia"></div>
+      <h3 id="mTitle"></h3>
+      <p class="meta" id="mMeta"></p>
+      <ul class="bullets" id="mBullets"></ul>
+      <div class="links" id="mLinks"></div>
+    </div>
+  </div>
+
+  <script src="projects.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
