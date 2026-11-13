@@ -37,12 +37,15 @@ const PROJECTS = [
   {
     title: "Creeper Cataclysm",
     year: "2023–2025",
-    tags: "Java · Minecraft plugin · Team project",
+    tags: "Java · Minecraft plugin (Spigot/Paper)",
     bullets: [
-      "Team-based Minecraft minigame plugin with a queue and lobby system, map zones, capture progress, team statues, a gold shop and a grappling hook.",
+      "Team-based Minecraft minigame: attackers try to kill the defenders' creeper before time runs out, and defenders try to keep it alive.",
+      "Queue and random team matchmaking, maps defined in config, a gold economy with a team shop, a grappling hook, team statues, zone particles and comeback buffs for the losing side.",
       "Built with Java, ProtocolLib and WorldEdit, and updated to Minecraft 1.21.5."
     ],
-    image: "",
+    image: "assets/creeper-cataclysm.webp",
+    // Crops in so other players' name tags in the screenshot are not shown.
+    crop: { size: "167%", pos: "50% 50%" },
     video: "",
     links: [{ label: "Source", url: "https://github.com/TristanTengGH2/CreeperCataclysm" }]
   },
