@@ -57,12 +57,12 @@ h2 {
 
 .grid {
   max-width: 1200px; margin: 0 auto;
-  display: grid; gap: 28px;
-  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+  display: flex; flex-wrap: wrap; justify-content: center; gap: 28px;
 }
 .card {
   background: none; border: 0; padding: 0; text-align: left; color: inherit;
   font: inherit; cursor: pointer;
+  flex: 0 1 360px; max-width: 100%;
 }
 .thumb {
   aspect-ratio: 16 / 9; width: 100%;
