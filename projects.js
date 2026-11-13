@@ -35,6 +35,18 @@ const PROJECTS = [
     ]
   },
   {
+    title: "Creeper Cataclysm",
+    year: "2023–2025",
+    tags: "Java · Minecraft plugin · Team project",
+    bullets: [
+      "Team-based Minecraft minigame plugin with a queue and lobby system, map zones, capture progress, team statues, a gold shop and a grappling hook.",
+      "Built with Java, ProtocolLib and WorldEdit, and updated to Minecraft 1.21.5."
+    ],
+    image: "",
+    video: "",
+    links: [{ label: "Source", url: "https://github.com/TristanTengGH2/CreeperCataclysm" }]
+  },
+  {
     title: "Weather in Class",
     year: "Sep–Oct 2026",
     tags: "HTML/CSS · JavaScript · Live weather data · Course project",
